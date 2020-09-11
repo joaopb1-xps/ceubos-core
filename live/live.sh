@@ -46,8 +46,8 @@ lb config noauto \
      --mirror-bootstrap http://httpredir.debian.org/debian/ \
      --mirror-binary http://httpredir.debian.org/debian/ \
      --mirror-binary-security http://security.debian.org/ \
-     --bootappend-live "boot=live components timezone=America/Sao_Paulo locales=pt_BR.UTF-8 keyboard-layouts=br keyboard-variants=abnt2 hostname=CEUB-OS username=ceubos noprompt noeject autologin splash blacklist.nouveau=1 i915.modeset=1 gfxpayload=640x480 acpi_backlight=vendor acpi_osi=!" \
-     --bootappend-live-failsafe "initrd=/live/initrd boot=live persistence config memtest noapic noapm nodma nomce nolapic nomodeset nosmp splash vga=791 pti=off blacklist.nouveau=1 i915.modeset=1 gfxpayload=640x480 acpi_backlight=vendor acpi_osi=!" \
+     --bootappend-live "boot=live components timezone=America/Sao_Paulo locales=pt_BR.UTF-8 keyboard-layouts=br keyboard-variants=abnt2 hostname=CEUB-OS username=ceubos noprompt noeject autologin splash" \
+     --bootappend-live-failsafe "initrd=/live/initrd boot=live persistence config memtest noapic noapm nodma nomce nolapic nomodeset nosmp splash" \
      --firmware-chroot true \
      --firmware-binary true \
      --apt-options "--force-yes --yes -oAcquire::Check-Valid-Until=false" \
