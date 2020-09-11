@@ -194,7 +194,7 @@ lb config noauto \
      qtchooser qtcore4-l10n \
      quadrapassel \
      r-base-core r-cran-boot r-cran-class r-cran-cluster r-cran-codetools r-cran-foreign r-cran-kernsmooth r-cran-lattice r-cran-mass r-cran-matrix r-cran-mgcv r-cran-nlme r-cran-nnet r-cran-rgtk2 r-cran-rpart r-cran-spatial r-cran-survival r-recommended \
-     rake recordmydesktop rsync samba-libs sane-utils sc3-plugins-server scratch scribus scribus-data \
+     rake recordmydesktop rsync samba-libs sane-utils sc3-plugins-server \
      sgml-base sgml-data shared-mime-info simple-scan socat sound-theme-freedesktop \
      spice-client-glib-usb-acl-helper sshfs ssl-cert sudo swell-foop \
      syslinux syslinux-common \
