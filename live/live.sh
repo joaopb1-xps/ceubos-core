@@ -210,7 +210,7 @@ lb config noauto \
      usb-modeswitch usb-modeswitch-data usbmuxd usbutils \
      user-setup util-linux-locales uuid-runtime va-driver-all \
      vcdimager vdpau-driver-all vinagre vino \
-     vlc vlc-bin vlc-data vlc-l10n vlc-plugin-base vlc-plugin-video-output \
+     vlc vlc-data vlc-l10n vlc-plugin-base vlc-plugin-video-output \
      voikko-fi whois wireless-tools wodim wpasupplicant \
      x11-apps x11-common x11-session-utils x11-utils x11-xkb-utils x11-xserver-utils \
      xaos xapps-common xauth xbitmaps xbrlapi \
