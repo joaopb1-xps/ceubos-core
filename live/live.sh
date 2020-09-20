@@ -61,9 +61,9 @@ lb config noauto \
      --iso-publisher "CEUB - https://www.ceubos.com.br" \
      --keyring-packages "wireless-regdb=2020.04.29-2~bpo10+1 qtbase5-dev \
      glx-alternative-mesa=1.2.0~bpo10+1 update-glx=1.2.0~bpo10+1 glx-diversions=1.2.0~bpo10+1 \
-     python3-dev arduino arduino-mk dfu-programmer \
+     python3-dev dfu-programmer \
      calamares shotcut btrfs-progs python3-btrfs extlinux openboard flatpak snapd vrms \
-     iramuteq mesa-utils-extra flashplayer-mozilla firefox-esr firefox-esr-l10n-all \
+     mesa-utils-extra flashplayer-mozilla firefox-esr firefox-esr-l10n-all \
      fonts-arabeyes fonts-arphic-ukai fonts-arphic-uming fonts-beng fonts-beng-extra \
      fonts-bpg-georgian fonts-cantarell fonts-dejavu fonts-dejavu-core fonts-dejavu-extra \
      fonts-deva fonts-deva-extra fonts-droid-fallback fonts-dustin fonts-dzongkha \
@@ -88,7 +88,7 @@ lb config noauto \
      fonts-tlwg-waree fonts-tlwg-waree-ttf fonts-ukij-uyghur fonts-unikurdweb \
      fonts-vlgothic fonts-wqy-microhei fonts-wqy-zenhei fonts-ubuntu-title \
      cinnamon-plasma-theme arc-icons-remix arc-theme cinnamon-l10n \
-     live-task-cinnamon task-cinnamon-desktop dosfstools nautilus-dropbox \
+     live-task-cinnamon task-cinnamon-desktop dosfstools \
      apt-transport-https  google-talkplugin gtk2-engines-pixbuf cifs-utils \
      doxygen vim openscenegraph libopenthreads20 libopenthreads20 openscenegraph \
      openscenegraph-doc openscenegraph-examples eviacam onboard mate-themes \
@@ -119,7 +119,7 @@ lb config noauto \
      djvulibre-bin dkms dnsutils docbook-xml docbook-xsl dreamchess \
      dreamchess-data dvdauthor efibootmgr eog espeak-ng-data exfat-fuse \
      exfat-utils extlinux ffmpeg file file-roller finger \
-     fontconfig fontconfig-config four-in-a-row freeglut3 fritzing \
+     fontconfig fontconfig-config freeglut3 \
      fritzing-data fritzing-parts fuse fxload g++ gawk gconf-service \
      gconf2 gconf2-common gcr \
      gdebi gdebi-core \
@@ -129,11 +129,11 @@ lb config noauto \
      git git-gui git-man gkbd-capplet \
      gnome-accessibility-themes gnome-backgrounds gnome-bluetooth gnome-calculator \
      gnome-control-center gnome-control-center-data gnome-desktop3-data \
-     gnome-font-viewer gnome-keyring gnome-klotski gnome-mahjongg gnome-mime-data \
-     gnome-mines gnome-nettool gnome-nibbles gnome-online-accounts gnome-orca \
-     gnome-robots gnome-screenshot gnome-settings-daemon gnome-sudoku \
-     gnome-sushi gnome-system-monitor gnome-taquin gnome-terminal \
-     gnome-terminal-data gnome-tetravex gnome-themes-standard \
+     gnome-font-viewer gnome-keyring gnome-mime-data \
+     gnome-mines gnome-nettool gnome-online-accounts gnome-orca \
+     gnome-screenshot gnome-settings-daemon gnome-sudoku \
+     gnome-sushi gnome-system-monitor gnome-terminal \
+     gnome-terminal-data gnome-themes-standard \
      adwaita-icon-theme gnome-user-guide gnome-user-share gnome-video-effects \
      nautilus-gtkhash nautilus-emblems nautilus-scripts-manager nautilus-share nautilus-image-converter \
      gir1.2-accountsservice-1.0 gir1.2-appindicator3-0.1 gir1.2-atk-1.0 gir1.2-atspi-2.0 \
@@ -149,7 +149,7 @@ lb config noauto \
      gir1.2-soup-2.4 gir1.2-totem-1.0 gir1.2-totem-plparser-1.0 \
      gir1.2-upowerglib-1.0 gir1.2-vte-2.91 gir1.2-webkit2-4.0 \
      gir1.2-wnck-3.0 gir1.2-xapp-1.0 gir1.2-xkl-1.0 gir1.2-zeitgeist-2.0 \
-     gnote gnucap gnupg2 gocr goldendict gparted gphoto2 greybird-gtk-theme grilo-plugins-0.3 \
+     gnote gnucap gnupg2 gocr gparted gphoto2 greybird-gtk-theme grilo-plugins-0.3 \
      groff-base growisofs \
      gscan2pdf gsettings-desktop-schemas gsfonts gsfonts-x11 gstreamer1.0-alsa gstreamer1.0-clutter-3.0 gstreamer1.0-espeak gstreamer1.0-libav gstreamer1.0-nice gstreamer1.0-plugins-bad gstreamer1.0-plugins-base gstreamer1.0-plugins-good gstreamer1.0-pulseaudio gstreamer1.0-x \
      gthumb gthumb-data \
@@ -192,9 +192,8 @@ lb config noauto \
      pxelinux qdbus qjackctl \
      qml-module-org-kde-games-core qml-module-qtgraphicaleffects qml-module-qtmultimedia qml-module-qtquick-controls qml-module-qtquick-dialogs qml-module-qtquick-layouts qml-module-qtquick-privatewidgets qml-module-qtquick-window2 qml-module-qtquick2 \
      qtchooser qtcore4-l10n \
-     quadrapassel \
      r-base-core r-cran-boot r-cran-class r-cran-cluster r-cran-codetools r-cran-foreign r-cran-kernsmooth r-cran-lattice r-cran-mass r-cran-matrix r-cran-mgcv r-cran-nlme r-cran-nnet r-cran-rgtk2 r-cran-rpart r-cran-spatial r-cran-survival r-recommended \
-     rake recordmydesktop rsync samba-libs sane-utils sc3-plugins-server scratch \
+     rake recordmydesktop rsync samba-libs sane-utils sc3-plugins-server \
      sgml-base sgml-data shared-mime-info simple-scan socat sound-theme-freedesktop \
      spice-client-glib-usb-acl-helper sshfs ssl-cert sudo \
      syslinux syslinux-common \
@@ -213,7 +212,7 @@ lb config noauto \
      vlc vlc-bin vlc-data vlc-l10n vlc-plugin-base vlc-plugin-video-output \
      voikko-fi whois wireless-tools wodim wpasupplicant \
      x11-apps x11-common x11-session-utils x11-utils x11-xkb-utils x11-xserver-utils \
-     xaos xapps-common xauth xbitmaps xbrlapi \
+     xapps-common xauth xbitmaps xbrlapi \
      xdg-user-dirs xdg-user-dirs-gtk xdg-utils \
      xdmx xdmx-tools \
      xfonts-100dpi xfonts-75dpi xfonts-base xfonts-encodings xfonts-scalable xfonts-unifont xfonts-utils \
